@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="api.css">
+    <script
+    src="https://code.jquery.com/jquery-3.1.1.min.js"
+    integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+    crossorigin="anonymous"></script>
+    <script src="api.js"></script>
+    <title>API</title>
+</head>
+<body>
+    <h1>Employee Management</h1>
+<form>
+    <table border="1">
+        <tr>
+            <td>Employee ID :</td>
+            <td><input id="id" type="integer" /></td>
+        </tr>
+        <tr>
+            <td>Employee Name :</td>
+            <td><input id="name" type="text" /></td>
+        </tr>
+        <tr>
+            <td>Employee Description :</td>
+            <td><input id="description" type="text" /></td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <input type="button" id="submit" 
+                       value="Submit" />
+            </td>
+        </tr>
+    </table>
+    <br />
+    <div id="msg"></div>
+    <p></p>
+</form>
+</body>
+</html>
