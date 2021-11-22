@@ -5,15 +5,6 @@ $(document).ready(function () {
     var name = $("#name").val();
     var description = $("#description").val();
 
-    // $.ajax({
-    //     url: "https://localhost:44376/Employee",
-    //     method: "GET",
-
-    //     success: function (data) {
-    //         alert('Updated Successfully');
-    //     },
-    //     error: function (msg) { alert("Error"); }
-    // });
     $.ajax({
       url: "https://localhost:44376/Employee",
       method: "POST",
